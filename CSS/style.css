@@ -1,0 +1,174 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: "Roboto", sans-serif;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    .container {
+        width: 960px;
+        margin: auto;
+    }
+    
+    nav {
+        height: 90px;
+    }
+    
+    nav ul {
+        display: flex;
+        list-style: none;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    nav ul li:nth-child(2) {
+        margin-left: auto;
+    }
+    
+    nav ul li {
+        color: blue;
+    }
+    
+    nav ul li:last-child {
+        background-color: blue;
+        color: white;
+        border-radius: 10px;
+        width: 200px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    nav img {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .image {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    
+    .image img {
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .content section {
+        width: 80%;
+    }
+    
+    .nd {
+        width: 30%;
+    }
+    
+    .ndv {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin: 10px;
+    }
+    
+    .nd>p {
+        font-size: small;
+    }
+    
+    .content aside {
+        width: 20%;
+    }
+    
+    .content {
+        display: flex;
+    }
+    
+    h2 {
+        color: blue;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    form>p {
+        font-size: x-small;
+        margin: 0;
+    }
+    
+    label {
+        font-size: small;
+    }
+    
+    input[type="checkbox"] {
+        width: 10px;
+        height: 20px;
+    }
+    
+    .checkbox {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    
+    .checkbox p {
+        font-size: small;
+    }
+    
+    input[type="button"] {
+        background-color: blue;
+        color: white;
+        border: none;
+        padding: 10px;
+        border-radius: 10px;
+        width: 40%;
+    }
+    
+    .content {
+        margin-top: 10px;
+    }
+    
+    .end {
+        display: flex;
+        gap: 10px;
+        margin-top: 10px;
+        border-top: 1px solid #0089ce;
+    }
+    
+    .end li {
+        padding: 10px;
+    }
+    
+    .end .form {
+        width: 40%;
+    }
+    
+    h3 {
+        padding-bottom: 10px
+    }
+    
+    .form>p {
+        font-size: x-small;
+    }
+    
+    .form img {
+        width: 100px;
+        margin-bottom: 10px;
+    }
+    
+    footer {
+        background-color: #0089ce;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+    }
